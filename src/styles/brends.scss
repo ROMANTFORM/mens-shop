@@ -1,0 +1,27 @@
+.brends {
+  width: 100%;
+  background-color: #0f0f0f;
+  color: #fff;
+  padding: 20px;
+}
+.brends-wpapper-title {
+  width: 200px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+.brends-title {
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  line-height: 80px;
+}
+.brends-list {
+  list-style: none;
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.brend-list__img {
+  width: 150px;
+}

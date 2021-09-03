@@ -1,0 +1,37 @@
+.collection {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.collection-img {
+  width: 450px;
+}
+.collection-info {
+  width: 650px;
+  // height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+}
+.collection-info__title {
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  line-height: 80px;
+}
+.collection-info__btn {
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

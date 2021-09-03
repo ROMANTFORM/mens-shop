@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  height: 44px;
+  background-color: black;
+  color: #969696;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tel-icon,
+.login-icon {
+  width: 20px;
+  height: 20px;
+  fill: #969696;
+  margin-right: 10px;
+}
+.header-login__link {
+  text-decoration: none;
+  color: #969696;
+}
